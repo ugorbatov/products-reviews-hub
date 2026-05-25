@@ -100,12 +100,14 @@
   align-items: flex-end;
   gap: 1rem;
   margin-top: auto;
+  flex-direction: column;
 }
 
 .price {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
+  width: 100%;
 }
 
 .priceLabel {
@@ -118,25 +120,28 @@
 .priceValue {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--color-primary);
+  color: var(--color-text);
 }
 
 .button {
   background-color: var(--color-primary);
   color: white;
-  padding: 0.75rem 1.25rem;
+  padding: 0.85rem 1.5rem;
   border-radius: var(--radius-md);
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
   transition: all 0.2s ease;
   white-space: nowrap;
-  display: inline-block;
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
 .button:hover {
   background-color: var(--color-primary-dark);
   text-decoration: none;
+  transform: scale(1.02);
 }
 
 @media (max-width: 768px) {

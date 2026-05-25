@@ -1,25 +1,35 @@
 /* styles/Home.module.css */
 
 .hero {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-  color: white;
-  padding: 4rem 2rem;
-  margin: -2rem -1rem 2rem -1rem;
+  background: var(--color-background);
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><rect fill="%23F9F9F9" width="1200" height="400"/><text x="50%" y="50%" font-size="120" font-weight="bold" text-anchor="middle" dominant-baseline="middle" fill="%23000" opacity="0.05">Shop</text></svg>');
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem;
+  margin: -2rem -1rem 3rem -1rem;
   text-align: center;
-  border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  position: relative;
 }
 
 .heroContent h1 {
-  color: white;
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  line-height: 1.1;
+  color: var(--color-text);
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+  letter-spacing: -2px;
 }
 
 .heroContent p {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
+  color: var(--color-text-light);
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
 }
 
 .searchBox {

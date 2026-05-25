@@ -1,14 +1,14 @@
 /* styles/globals.css */
 
 :root {
-  --color-primary: #FF9900;
-  --color-primary-dark: #E68A1F;
-  --color-text: #232F3E;
-  --color-text-light: #555;
+  --color-primary: #000000;
+  --color-primary-dark: #1a1a1a;
+  --color-text: #000000;
+  --color-text-light: #666666;
   --color-background: #FFFFFF;
-  --color-surface: #F5F5F5;
+  --color-surface: #F9F9F9;
   --color-border: #E8E8E8;
-  --color-rating: #FDB913;
+  --color-rating: #FFB800;
   --color-success: #13A538;
   
   --font-sans: 'Segoe UI', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -19,8 +19,8 @@
   --radius-lg: 12px;
   
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.12);
-  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.16);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
   
   --spacing: 8px;
 }
