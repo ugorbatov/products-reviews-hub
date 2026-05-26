@@ -60,18 +60,6 @@ export default function Home() {
             ))}
           </div>
         </section>
-
-        
-
-        <section className={styles.cta}>
-          <h2>Ready to Find the Best Products?</h2>
-          <p>Browse our categories above or search for specific product types.</p>
-          <button className="primary">
-            <Link href="/#categories" style={{ color: 'inherit' }}>
-              Start Exploring
-            </Link>
-          </button>
-        </section>
       </Layout>
     </>
   );
