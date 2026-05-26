@@ -61,43 +61,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.section}>
-          <h2>How It Works</h2>
-          <div className={styles.features}>
-            <div className={styles.feature}>
-              <div className={styles.featureIcon}>📊</div>
-              <h3>Data-Driven Rankings</h3>
-              <p>
-                Products are ranked by real customer ratings and review counts.
-                Higher rated products with more reviews appear first.
-              </p>
-            </div>
-            <div className={styles.feature}>
-              <div className={styles.featureIcon}>🔗</div>
-              <h3>Affiliate Links</h3>
-              <p>
-                Direct affiliate links to Amazon. We earn a small commission when
-                you purchase through our links at no extra cost to you.
-              </p>
-            </div>
-            <div className={styles.feature}>
-              <div className={styles.featureIcon}>🎯</div>
-              <h3>Easy Comparison</h3>
-              <p>
-                Compare top products side-by-side with ratings, prices, and detailed
-                information all in one place.
-              </p>
-            </div>
-            <div className={styles.feature}>
-              <div className={styles.featureIcon}>🔄</div>
-              <h3>Updated Daily</h3>
-              <p>
-                Our data updates regularly to show the latest ratings and reviews
-                from Amazon's product database.
-              </p>
-            </div>
-          </div>
-        </section>
+        
 
         <section className={styles.cta}>
           <h2>Ready to Find the Best Products?</h2>
